@@ -1,0 +1,35 @@
+p {
+    color: white;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(11, 27, 61);
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+td {
+    color: rgb(255, 255, 255);
+    background-color:#036;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 15pt;
+    font-weight: bold;
+}
