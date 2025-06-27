@@ -8,8 +8,8 @@ p {
 }
 
 h1 {
-    color: white;
-    background-color: #038;
+    color:black;
+    background-color: #fff;
     text-align: center;
     font-family: "Arial Narrow";
     font-size: 22pt;
@@ -17,8 +17,8 @@ h1 {
 }
 
 body {
-    color: rgb(255, 255, 255);
-    background-color: #038;
+    color: black;
+    background-color: white;
     text-align: center;
     font-family: "Arial Narrow";
     font-size: 15pt;
@@ -26,11 +26,29 @@ body {
 }
 
 td {
-    color: rgb(255, 255, 255);
-    background-color:#038;
+    color: black;
+    background-color:#fff;
     text-align: center;
     font-family: "Arial Narrow";
     font-size: 15pt;
     font-weight: bold;
 }
 
+
+h3 {
+    color: black;
+    background-color:#fff;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+    background-color:#fff;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 15pt;
+    font-weight: normal;
+}

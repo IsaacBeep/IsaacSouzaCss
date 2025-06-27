@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MenuCss Drop Down</title>
     <link rel="stylesheet" type="text/css" href="Menu.css" media="all">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="all">
     </style>
 </head>
 <body>
 
     <ul>
-        <li> <a href="#">Inicio</a></li> <!-- "#" significa o caminho, por exemplo pra colocar na tela de funcionarios ou cliente -->
+        <li> <a href="MenuSA.html">Inicio</a></li> <!-- "#" significa o caminho, por exemplo pra colocar na tela de funcionarios ou cliente -->
         <li> <a href="#">Novidade</a></li>
+        <!-- Dropdown para Fornecedor -->
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn"> Fornecedor</a>
             <div class="dropdown-content">
@@ -20,20 +22,22 @@
                 <a href="#">Excluir - Em andamento</a>
             </div>
         </li>
+        <!-- Dropdown para Cliente -->
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn"> Cliente</a>
             <div class="dropdown-content">
-                <a href="CadastrarCliente.html">Cadastrar - Finalizado</a>
-                <a href="#">Alterar - Em andamento</a>
-                <a href="ExcluirCliente.html">Excluir - Finalizado</a>
+                <a href="CadastrarCliente.html">Cadastrar</a>
+                <a href="AlterarCliente.html">Alterar</a>
+                <a href="ExcluirCliente.html">Excluir</a>
             </div>
         </li>
+        <!-- Dropdown para Produto -->
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn"> Produto</a>
             <div class="dropdown-content">
-                <a href="CadastrarProduto.html">Cadastrar - Finalizado</a>
-                <a href="#">Alterar - Em andamento</a>
-                <a href="#">Excluir - Em andamento</a>
+                <a href="CadastrarProduto.html">Cadastrar - Trabalho do Ruan</a>
+                <a href="#">Alterar - Trabalho do Ruan</a>
+                <a href="#">Excluir - Trabalho do Ruan</a>
             </div>
         </li>
     </ul>
