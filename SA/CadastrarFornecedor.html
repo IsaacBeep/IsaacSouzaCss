@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA</title>
+    <link rel="stylesheet" type="text/css" href="Menu.css" media="all">
+
+</head>
+<center>
+<body>
+
+    <ul>
+        <li> <a href="#">Inicio</a></li> <!-- "#" significa o caminho, por exemplo pra colocar na tela de funcionarios ou cliente -->
+        <li> <a href="#">Novidade</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Fornecedor</a>
+            <div class="dropdown-content">
+                <a href="CadastrarFornecedor.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Cliente</a>
+            <div class="dropdown-content">
+                <a href="CadastrarCliente.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="ExcluirCliente.html">Excluir - Finalizado</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Produto</a>
+            <div class="dropdown-content">
+                <a href="CadastrarProduto.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+    </ul>
+        
+
+        <h1>
+            <img src="livro.ico" alt="logo"
+            height="42" width="42">
+            Cadastro de fornecedor
+        </h1>
+    <table>
+    <form action="post">
+        <tr>
+            <td>Nome do fornecedor:</td>
+            <td><input type="text" name="nome_fornecedor" required></td>
+        </tr>
+        <tr>
+             <td>CNPJ:</td>
+            <td><input type="text" name="cnpj" required></td>
+        </tr>
+        <tr>
+            <td>Endereço:</td>
+            <td><input type="text" name="endereco" required></td>
+        </tr>
+        <tr>
+            <td>Telefone:</td>
+            <td><input type="tel" name="telefone" required></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">Cadastrar</button></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</center>
+</html>

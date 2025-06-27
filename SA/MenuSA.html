@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuCss Drop Down</title>
+    <link rel="stylesheet" type="text/css" href="Menu.css" media="all">
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li> <a href="#">Inicio</a></li> <!-- "#" significa o caminho, por exemplo pra colocar na tela de funcionarios ou cliente -->
+        <li> <a href="#">Novidade</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Fornecedor</a>
+            <div class="dropdown-content">
+                <a href="CadastrarFornecedor.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Cliente</a>
+            <div class="dropdown-content">
+                <a href="CadastrarCliente.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="ExcluirCliente.html">Excluir - Finalizado</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Produto</a>
+            <div class="dropdown-content">
+                <a href="CadastrarProduto.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+    </ul>
+    
+    <center><h3>Menu da nossa SA</h3></center>
+    <center><p>Passe o mouse atraves dos menus e <br> escolha qual voce deseja visualizar</p></center>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <TITLe>IsaacSouza</TITLe>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="all">
+    <link rel="stylesheet" type="text/css" href="Menu.css" media="all">
+    
+</head>
+<center>
+<body>
+
+    <ul>
+        <li> <a href="#">Inicio</a></li> <!-- "#" significa o caminho, por exemplo pra colocar na tela de funcionarios ou cliente -->
+        <li> <a href="#">Novidade</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Fornecedor</a>
+            <div class="dropdown-content">
+                <a href="CadastrarFornecedor.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Cliente</a>
+            <div class="dropdown-content">
+                <a href="CadastrarCliente.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="ExcluirCliente.html">Excluir - Finalizado</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn"> Produto</a>
+            <div class="dropdown-content">
+                <a href="CadastrarProduto.html">Cadastrar - Finalizado</a>
+                <a href="#">Alterar - Em andamento</a>
+                <a href="#">Excluir - Em andamento</a>
+            </div>
+        </li>
+    </ul>
+    
+        <h1>
+            <img src="livro.ico"alt="Logo da sa" height="42" width="42">
+            <td rowspan=3 colspan=2> Cadastro de clientes</td> 
+        </h1>
+
+    <table>
+    <form action="post">
+        <tr>
+            <td>Informe seu nome: </td>
+            <td><input type="text" name="primeiro_nome" value="" ></td>
+        </tr>
+
+        <tr>
+            <td> informe seu cnpj: </td>
+            <td> <input type="text" value="" name="sua_senha">  </td>
+        </tr>
+
+        <tr>
+            <td>informe sua rua: </td>
+            <td><input type="text" value="" name="sua_rua"></td>
+        </tr>
+
+        <tr>
+            <td>informe seu bairro: </td>
+            <td><input type="text" value="" name="seu_bairro"></td>
+        </tr>
+        
+        <tr>
+            <td>informe sua cidade: </td>
+            <td><input type="cidade" value="" name="sua_cidade"></td>
+        </tr>
+
+        <tr>
+            <td>informe sua rua: </td>
+            <td><input type="estado" value="" name="seu_estado"></td>
+        </tr>
+
+        <tr>
+           <td><button> Efetivar Cadastro</button></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</center>
+</html> 
